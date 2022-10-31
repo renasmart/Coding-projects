@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head lang="en">
+  <title>Survey Form Certification</title>
+  <meta charset="UTF-8">
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve</p>
+  <form id="survey-form"> 
+  <fieldset>
+
+    <label for="name" id="name-label"> First name <input type="text" id="name" name="name" required placeholder="Enter your name..." /></label>
+
+    <label for="email" id="email-label" > Email<input type="email" id="email" name="email" required placeholder="Enter your email..." /></label>
+
+    <label for="number" id="number-label""> Age <input type="number" id="number" name="number" min="18" max="99" placeholder="Optional" /></label>
+
+    <label>How did you find us? </label> 
+    <select id="dropdown">
+      <option>Choose one</option>
+      <option>Online</option>
+      <option>From a friend</option>
+    </select>
+
+    <label for="radio">Would you recommend freeCodeCamp to a friend? </label>
+    <label>  <input class="inline" type="radio" name="choice" value="Yes" > Yes </label>
+     <label> <input class="inline" type="radio" name="choice" value="No"> No </label>
+      <input class="inline" type="radio" name="choice" value="Etc"> Still on the fence
+    </label>
+
+    <label for="checkbox">How can we improve?</label>
+
+      <label class="inline" for="checkbox"><input class="inline" type="checkbox" value="option1"/>
+      More Projects
+    <label for="checkbox"> <input class="inline" type="checkbox" value="option2"/> Less handhold
+    
+    </label>
+
+     <label for="textarea">Send us more feedback!</label>
+      <textarea id="textarea" rows="4" cols="50">Enter your comments here... </textarea>
+    
+    <input type="submit" id="submit"> 
+  </label>
+    </fieldset>
+    
+  </form>
+ </body>
+ </html>

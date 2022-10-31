@@ -1,0 +1,61 @@
+body {
+ 
+ background: url(https://r4.wallpaperflare.com/wallpaper/500/442/354/outrun-vaporwave-hd-wallpaper-4bb67cfd2391ef49d5148b291dcc5cf0.jpg) no-repeat center center fixed; 
+ font-family: tahoma;
+ width: 100%;
+ height: 100vh;
+ margin: 0;
+ font-size: 1.4rem;
+}
+
+h1, p {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 10px;
+  color: white;
+}
+
+p {
+  font-style: italic;
+}
+
+form {
+  margin: 0 auto;
+  width: 60vh; 
+    }
+ 
+ 
+fieldset {
+  background-color: black;
+  opacity: 0.9;
+  border: none;
+  color: white;
+  padding: 40px 40px 10px;
+  border-radius: 10px; 
+  
+}
+
+input, textarea, select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  padding: 5px
+  
+}
+
+input[type="Submit"] {
+  
+  display: block;
+  padding: 5px;
+  margin: 10 auto;
+}
+
+label {
+  display: block;
+  margin: 0.8rem 0;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
